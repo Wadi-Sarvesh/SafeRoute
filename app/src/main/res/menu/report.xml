@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Report"
+        app:showAsAction="never"
+        android:id="@+id/report_option">
+    </item>
+    <item android:title="Change View"
+        app:showAsAction="never"
+        android:id="@+id/change_view">
+    </item>
+    <item android:title="Load Hotspots"
+        app:showAsAction="never"
+        android:id="@+id/parse_json">
+    </item>
+
+</menu>

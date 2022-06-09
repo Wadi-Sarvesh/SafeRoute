@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">SafeRoute</string>
+
+
+
+    <string name="clickable">Clickable</string>
+    <string name="fill_alpha">Fill Alpha</string>
+    <string name="fill_hue">Fill Hue</string>
+    <string name="properties_circle">Properties for Circle(s)</string>
+    <string name="stroke_alpha">Stroke Alpha</string>
+    <string name="stroke_hue">Stroke Hue</string>
+    <string name="stroke_pattern">Stroke Pattern</string>
+    <string name="stroke_width">Stroke Width</string>
+    <string name="pattern_solid">Solid</string>
+    <string name="pattern_dotted">Dotted</string>
+    <string name="pattern_dashed">Dashed</string>
+    <string name="pattern_mixed">Mixed</string>
+    <string name="map_circle_description">Google Map with circles.</string>
+
+
+
+
+
+
+
+
+
+
+    <!-- Marker Collision -->
+    <string name="marker_collision_label">Marker Collision</string>
+    <string name="marker_collision_description">Demonstrates different supported marker collision behaviors.</string>
+</resources>

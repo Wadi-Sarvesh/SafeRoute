@@ -1,0 +1,173 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <!--
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/properties_circle" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+            <TextView android:text="@string/fill_hue" />
+            <SeekBar android:id="@+id/fillHueSeekBar" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+            <TextView android:text="@string/fill_alpha" />
+            <SeekBar android:id="@+id/fillAlphaSeekBar" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+            <TextView android:text="@string/stroke_width" />
+            <SeekBar android:id="@+id/strokeWidthSeekBar" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+            <TextView android:text="@string/stroke_hue" />
+            <SeekBar android:id="@+id/strokeHueSeekBar" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+            <TextView android:text="@string/stroke_alpha" />
+            <SeekBar android:id="@+id/strokeAlphaSeekBar" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+            <TextView
+                android:text="@string/stroke_pattern"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <Spinner
+                android:id="@+id/strokePatternSpinner"
+                android:spinnerMode="dropdown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+            <CheckBox
+                android:id="@+id/toggleClickability"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:onClick="toggleClickability"
+                android:text="@string/clickable"/>
+        </TableRow>
+        -->
+
+        <!--
+        <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:id="@+id/idCardView"
+
+        android:layout_margin="3dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="8dp">
+        <fragment android:id="@+id/autocomplete_fragment"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"
+            />
+    </androidx.cardview.widget.CardView>
+    -->
+    <!--
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:src="@drawable/ic_my_icon"
+            android:layout_margin="16dp" />
+
+            <TextView
+
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:id="@+id/tvJsonItem"
+
+                />
+        -->
+
+
+
+
+
+
+
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        >
+        <SearchView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/search_bar"
+            android:queryHint="Search"
+            android:iconifiedByDefault="false"
+            android:layout_margin="10dp"
+            android:elevation="5dp"
+            android:background="@drawable/bg_round"
+            >
+        </SearchView>
+        <!--
+        <Button
+            android:id="@+id/satelliteView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|bottom"
+            android:text="View"
+            android:padding="10dp"
+            android:layout_marginTop="50dp"
+            android:paddingRight="10dp"/>
+        <Button
+            android:id="@+id/jsonparser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:text="Parse JSON"
+            android:padding="10dp"
+            android:layout_marginTop="50dp"
+            android:paddingRight="10dp"
+            />
+            -->
+
+
+        </fragment>
+
+
+</LinearLayout>
